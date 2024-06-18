@@ -1,0 +1,28 @@
+.rows{
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.row-images{
+    display: flex;
+    overflow-x :scroll;
+    overflow-y: hidden;
+}
+ .row-images::-webkit-scrollbar{
+    display: none; 
+} 
+.poster{
+    max-height: 160px;
+    /* max-width: 200px;     */
+    /* padding: 10px; */
+    margin-right: 10px;
+}
+.smallposter{
+    max-height: 100px;
+    margin-right: 10px;
+}
+.titles{
+color: rgb(0, 0, 0);
+}
+.youtube{
+    padding-top: 10px;
+}
